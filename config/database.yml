@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: shoutr_development
+
+test:
+  <<: *default
+  database: shoutr_test
+
+production:
+  <<: *default
+  database: shoutr_production
+  username: shoutr
+  password: <%= ENV['SHOUTR_DATABASE_PASSWORD'] %>
