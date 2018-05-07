@@ -17,5 +17,9 @@ class User < ApplicationRecord
     liked_shout_ids.include?(shout.id)
   end
 
+  def to_param
+    username
+  end
+
   validates :username, presence: true, uniqueness: true
 end
