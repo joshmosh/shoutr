@@ -1,24 +1,3 @@
-# README
+# Shoutr
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This simple Twitter like clone is here to display work I've done at a recent workshop. This project uses Rails v5 and Apache Solr for full text search.
