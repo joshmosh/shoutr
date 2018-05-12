@@ -21,3 +21,6 @@ public/system
 
 # Ignore local gems
 .gems
+
+# Ignore solr
+solr

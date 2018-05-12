@@ -11,9 +11,11 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'clearance'
 gem 'paperclip'
+gem 'sunspot_rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'sunspot_solr'
 end
 
 group :development do
